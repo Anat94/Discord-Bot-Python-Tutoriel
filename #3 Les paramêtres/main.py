@@ -13,7 +13,7 @@ async def say(ctx, *texte):
 
 @bot.command()
 async def chinese(ctx, *text):
-	chineseChar = "丹书匚刀巳下呂廾工丿片乚爪冂口尸Q尺丁丂凵V山乂Y乙"
+	chineseChar = "丹书匚刀巳下呂廾工丿片乚爪冂口尸Q尺丂丁凵V山乂Y乙"
 	chineseText = []
 	for word in text:
 		for char in word:
